@@ -3,7 +3,7 @@ Built using Electron
 
 If you want to keep track of bitcoin price, this app is for you.
 Set the target price and once that price is reached this app will give you the notificationn on your desktop.
-Also, this app helps you to keep track of price change with specified gap. If you specify gap of 5000 the this app will nootify you change of +/-5000
+Also, this app helps you to keep track of price change with specified gap. If you specify gap of 5000 the this app will nootify you change of price +/-5000
 
 It covers following concepts of electron
 1. Creating electron App
