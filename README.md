@@ -20,6 +20,8 @@ To run this application, enter following commands
 1. npm install
 2. npm start
 
+To run above commands prerequisite is npm installed.
+
 to package it for windows/mac/linux run following command
 
 npm (package-win|package-mac|package-linux)
