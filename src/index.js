@@ -55,7 +55,6 @@ function getBitCoinPrice() {
 getBitCoinPrice();
 setInterval(getBitCoinPrice, 3000);
 function convertToINR(amount) {
-    console.log(amount);
     var x = amount;
     x = x.toString();
     var afterPoint = '';

@@ -10,8 +10,6 @@ It covers following concepts of electron
 4. Giving notification on OS
 5. Used Bootstarp to demonstrate responsive behaviour 
 
-"electron-notification-desktop" node module is modified hence added in github.
-
 
 To run it, enter following commands
 
