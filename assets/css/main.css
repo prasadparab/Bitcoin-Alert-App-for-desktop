@@ -1,0 +1,66 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+.appHeader{
+    font-style:italic;
+    margin-bottom: 35px;
+}
+.appHeader .appLogo{
+    float: left;
+}
+.appHeader .headerTxt{
+    margin-top: 7px;
+    display: inline-block;
+}
+#currentPrice{
+    text-align: center;
+    font-size: 30px;
+}
+.priceTxt{
+    text-align: right;
+    margin-top: 12px;
+}
+#priceTime{
+    margin-top: 15px;
+}
+.redBottomBorder{
+    border-bottom: 3px solid #da0303
+}
+#setAlertBtn{
+    display: inherit;
+    margin: 0 auto;
+}
+.alertBox{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 2px solid goldenrod;
+    padding: 20px;
+    border-radius:10px; 
+}
+.analysisSection{
+    margin-top:20px;
+    text-align: center;
+}
+.todayStartPrice{
+    border-right: 2px solid white;
+}
+#todaysPrice{
+    font-size: 30px;
+    color: yellowgreen;
+}
+#todaysPeak{
+    font-size: 30px;
+    color: #00ffe9;
+}
+.priceComponent{
+    padding: 20px;
+    background-color: #000;
+    color:#fff;
+    box-shadow: -12px -12px 12px 34px #6f3368;
+    margin: 10px 10px 10px;
+    padding-bottom: 40px;
+}
+input[type=number]{
+    color: #000;
+}

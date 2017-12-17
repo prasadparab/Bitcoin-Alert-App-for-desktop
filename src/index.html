@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bitcoin App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+
+    <div class="container-fluid" id="content" tabindex="-1">
+        <div class="row">
+            <div class="col-xs-12 redBottomBorder appHeader">
+                <h1 class="col-xs-12">
+                    <img class="appLogo" src="../assets/icons/bitcoin_b&w.svg">
+                    <span class="headerTxt">Bitcoin Alerts!!!</span>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <span class="col-xs-4 priceTxt">Current Bitcoin Price in INR = ></span>
+            <span class="col-xs-5" id="currentPrice">Please wait....</span>
+            <span class="col-xs-3" id="priceTime"></span>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-xs-push-3 alertBox">
+                <span class="col-xs-12" id="showDeviation" style="text-align:center">+/-</span>
+                <button type="button" class="btn btn-primary" id="setAlertBtn">Set Price Deviation Alert</button>
+            </div>
+        </div>
+        <div class="row analysisSection">
+            <div class="col-xs-6 todayStartPrice">
+                <span class="col-xs-12">Today you started Bitcoin</span>
+                <span class="col-xs-12">@</span>
+                <span class="col-xs-12" id="todaysPrice">===</span>
+            </div>
+            <div class="col-xs-6 todaysPeakPrice">
+                <span class="col-xs-12" >Today's PeakPrice</span>
+                <span class="col-xs-12">is</span>
+                <span class="col-xs-12" id="todaysPeak">===</span>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-xs-6 col-xs-push-3 alertBox">
+                    <input type="number" id="targetPriceValue" value="0" style="margin: 0 auto;display: block;"/>
+                    <span class="col-xs-12" style="text-align:center">Enter Target price to get Notification</span>
+                    <span class="col-xs-12" style="text-align:center;color: #8e8d8d;
+                    font-style: italic;">Tip:Set it to zero to turn it off</span>
+                </div>
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "Bitcoin-Alert-App-for-desktop",
+  "version": "1.0.0",
+  "description": "Simple desktop app to get Bitcoin alerts",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/bitcoin_color.svg --prune=true --out=builds",
+    "package-win": "electron-packager . Bitcoin-Alert-App --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/bitcoin_color.svg --prune=true --out=builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"BitcoinAlerts\"",
+    "package-linux": "electron-packager . Bitcoin-Alert-App --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/bitcoin_color.svg --prune=true --out=builds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasadparab/Bitcoin-Alert-App-for-desktop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "1.7.9",
+    "electron-packager": "^10.1.0",
+    "jquery": "^3.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",    
+    "jquery": "^3.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/prasadparab/Bitcoin-Alert-App-for-desktop/issues"
+  },
+  "homepage": "https://github.com/prasadparab/Bitcoin-Alert-App-for-desktop#readme"
+}
